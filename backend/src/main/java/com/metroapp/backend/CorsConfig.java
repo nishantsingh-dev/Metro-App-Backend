@@ -13,7 +13,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/api/**")
-                        .allowedOrigins("http://localhost:3001","https://metro-app-backend.onrender.com")
+                        .allowedOrigins("http://localhost:3001","https://metropathfinder-nishant.netlify.app")
                         .allowedMethods("*");
             }
         };
